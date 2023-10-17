@@ -1,0 +1,30 @@
+pytz==2023.3.post1  # https://github.com/stub42/pytz
+django-timezone-field==6.0.1
+python-slugify==8.0.1  # https://github.com/un33k/python-slugify
+Pillow==10.0.1  # https://github.com/python-pillow/Pillow
+argon2-cffi==23.1.0  # https://github.com/hynek/argon2_cffi
+whitenoise==5.2.0  # https://github.com/evansd/whitenoise
+redis==5.0.1  # https://github.com/redis/redis-py
+hiredis==2.2.3  # https://github.com/redis/hiredis-py
+celery==5.3.4  # pyup: < 6.0  # https://github.com/celery/celery
+django-celery-beat==2.5.0  # https://github.com/celery/django-celery-beat
+flower==2.0.1  # https://github.com/mher/flower
+opencv-python==4.8.1.78
+
+# Django
+# ------------------------------------------------------------------------------
+django==4.2.6  # pyup: < 5.0  # https://www.djangoproject.com/
+django-environ==0.11.2  # https://github.com/joke2k/django-environ
+django-model-utils==4.3.1  # https://github.com/jazzband/django-model-utils
+django-allauth==0.57.0  # https://github.com/pennersr/django-allauth
+django-crispy-forms==2.0  # https://github.com/django-crispy-forms/django-crispy-forms
+crispy-bootstrap5==0.7  # https://github.com/django-crispy-forms/crispy-bootstrap5
+django-redis==5.4.0  # https://github.com/jazzband/django-redis
+django-json-widget==1.1.1
+django-extensions==3.2.3  # https://github.com/django-extensions/django-extensions
+wrapt==1.15.0
+Jinja2==3.1.2
+
+# Application specific
+# ------------------------------------------------------------------------------
+opencv-python  # https://github.com/skvark/opencv-python
